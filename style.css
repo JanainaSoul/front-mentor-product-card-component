@@ -2,4 +2,30 @@ body {
 	font-family: 'Special Elite', cursive;
 	font-family: 'Special Elite', cursive;
 	background-color: hsl(30, 38%, 92%);
+	padding-left: 20%;
+	margin-top: 15%;
+	margin-bottom: 20%;
+}
+
+.texto-perfume {
+	text-align: center;
+	position: relative;
+	vertical-align: baseline;
+	display: inline-block;
+}
+.produto {
+	display: inline-block;
+}
+
+.perfume-desktop {
+	padding: 50px;
+	width: 350px;
+	height: 500px;
+	display: inline-block;
+}
+
+.creditos {
+	text-align: center;
+	padding-top: 40px;
+	margin-bottom: 10%;
 }
