@@ -10,31 +10,47 @@
 	<title>Frontend Mentor | Product preview card component</title>
 </head>
 <body>
-	<main>
-		<section class="produto">
-		<p class="texto-perfume"> Preview
+	<div class="caixa">
+		<div class="imagens"> 
+			<div class="produtos-imagens"> 
+				<img class="perfume-desktop" src="images/image-product-desktop.jpg">
+				<!--img class="perfume-mobile" src="images/image-product-mobile.jpg"-->
+			</div>
+	</div>
+		<div class="produto-descricao">
+		<p class="produto-tipo"> Perfum </p>
 
-  		Gabrielle Essence Eau De Parfum
+  		<h1> Gabrielle Essence Eau De Parfum</h1>
 
-  		A floral, solar and voluptuous interpretation composed by Olivier Polge, 
- 	    Perfumer-Creator for the House of CHANEL.
+  		<p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+ 	    Perfumer-Creator for the House of CHANEL.</p>
 
- 		$149.99
-  		$169.99
-  	</p>
+ 		<div class="preco">
+ 		<span class="preco-antigo-perfume">$149.99</span><span class="preco-atual-perfume">$169.99</span>
+ 		
+  		</div>
 
-  		<p class="carrinho">Add to Cart</p> 
-		</section>
+  		<div class="carrinho">
+  			
+  			<img src="images/icon-cart.svg" alt="icone adicione ao carrinho">
+  			<input type="submit" value="Add to Cart" class="adicione ao carrinho">
+  			</a>
+		</div>
+	</div>
+</div>
+		
 
-		<img class="perfume-desktop" src="image-product-desktop.jpg">
+<footer class="creditos">
+   	Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Janaina</a>.
+    <p class="copyright"> &copy;Copyright Front End Mentor 2023 - CTD3</p>
+	<a class="icones" href="http://github.com/JanieFox"><ion-icon name="logo-github"></ion-icon></a>
+    <a class="icones" href="https://www.linkedin.com/in/janainasoul/"><ion-icon name="logo-linkedin"></ion-icon></a>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"> </script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </footer>
 
-		 <div class="creditos">
-   		 Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    	Coded by <a href="#">Janaina</a>.
-  </div>
-
-	</main>
-
-
-
+	
 	</body>
+
+	</html>
