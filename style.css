@@ -21,24 +21,40 @@ img , svg {
 	max-width: 1440px;
 }
 
+img {
+	width: 30px;
+}
+
+svg {
+	padding-left: 100px;
+}
+
 
 
 h1 {
-	text-align: center;
+	text-align: left;
 	width: 200px;
     line-height: 1.1;
     background-color: white;
     padding-top: 0;
     padding:0;
     padding-bottom: 0;
-    padding-left: 55px;
+    padding-left: 50px;
     margin:20px;
+    font-family: "Fraunces", serif;
+    font-weight: bold;
+    font-size: 35px;
 }
 
 p {
-	padding-left: px;
+	width: 250px;
+	padding-left: 50px;
+	text-align: left;
+	line-height: 1.8;
+	
 }
 span {
+	padding-left: 40px;
 	width: 350px;
 	
 	
@@ -92,15 +108,18 @@ body {
 	height: 50px;
 	text-align: center;
 	background: white;
+	margin-bottom: 450px;
 	
 }
 
 .produto-tipo {
+	 letter-spacing: 5px;
 	width: 350px;
 	text-style: bold;
 	text-transform: uppercase;
 	text-align: left;
 	margin-bottom: 50px;
+	padding-left: 20px;
 	
 	
 	
@@ -112,16 +131,20 @@ body {
 
 }
 
-.produto-atual-preco {
-    font-size: 15px;
-    font-family: "Fraunces", serif;
-    color: Dark cyan: hsl(158, 36%, 37%);
-    font-weight: bold;
-}
 .preco-antigo-perfume {
-	display: inline-block;
+	padding-top: 30px;
+	color: black;
 	font-family: "Montserrat", sans-serif;
-	font-size: 30px;
+	font-size: 15px;
+    text-decoration: line-through;
+    
+}
+.preco-atual-perfume {
+	color: hsl(158, 36%, 37%);
+	display: inline-block;
+	font-family: "Fraunces", serif;
+ 	font-size: 50px;
+	
 	font-weight: bold;
 
 
@@ -144,14 +167,7 @@ body {
 
 }
 
-.preco-atual-perfume {
-	font-style: bold;
 
-}
-
-.preco-antigo-perfume {
-	font-style: bold;
-	color:hsl(158, 36%, 37%);
 
 	
 }
@@ -168,8 +184,9 @@ body {
 }
 
 .carrinho {
-	width: 70%;
-	padding: 2px 0;
+	display: flex;
+	width: 250px;
+	padding: 5px 0;
 	background: hsl(158, 36%, 37%);
 	color: white;
 	font-weight: bold;
@@ -178,6 +195,7 @@ body {
 	border-radius: 5px;
 	transition: 1s all;
 	cursor: pointer;
+	margin-left: 15%;
 }
 
 .creditos {
@@ -214,9 +232,7 @@ footer {
 		width: auto;
 	}
 
-	h1 {
-		text-align: center;
-	}
+	
 
 	nav {
 		position: static;
