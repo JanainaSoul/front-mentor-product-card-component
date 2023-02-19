@@ -12,6 +12,8 @@ html, body {
 
 
 body {
+	padding: 0px;
+	margin: 0px;
 	line-height: 1.5;
 
 }
@@ -62,6 +64,7 @@ span {
 }
 
 body {
+	margin-top: 200px;
     font-family: "Fraunces", serif;
     font-family: "Montserrat", sans-serif;
    	font-size: 1rem;
@@ -88,6 +91,7 @@ body {
 }
 
 .imagens {
+	float: left;
 	width: 50%;
 	display: flex;
 	padding: 0;
@@ -208,8 +212,8 @@ body {
 .creditos {
 	width: 700px;
 	text-align: center;
-	padding-top: 300px;
-	margin-bottom: 10%;
+	padding-top: 100px;
+	margin-bottom: 5%;
 	font-size: 15px;
 }
 
@@ -246,20 +250,74 @@ footer {
 
 
 /*adaptação para outros dispositivos*/
-@media screen and (max-width: 375px){
-	.caixa, .imagens, .preco, .carrinho, .creditos {
+@media screen and (max-width: 480px){
+	 .caixa, .produto-descricao, , .carrinho, .creditos {
 		width: auto;
+		display: none;
+		float: left;
 	}
+body {
+	padding: 0px;
+	width: 480px;
+	display: auto;
+}
+h1 {
+	text-align: center;
+}
+.caixa {
+	background-color: white;
+	padding-left: 40px;
+	width: 400px;
+	display: inline-block;
+}
+.produto-tipo {
+	margin-top: 500px;
+}
+.perfume-desktop {
 
+	display: inline-block;
+	float: left;
+	margin: 0px;
 	
+	padding-left:0px;
+	padding-right: 40px;
+	width: 400px;
+}
+.produto-tipo{
+	text-align: left;
+}
+footer {
 
-	nav {
-		position: static;
+	width: 480px;
+	height: 200px;
+	float: left;
+	padding-left: 0px;
+	text-align: left;
+}
+
+.creditos{
+	text-align: left;
+}
+
+p.copyright{
+	text-align: left;
+}
+	/*body {
+		padding: 0px;
+		margin:0px;
 	}
 
-	.lista-beneficios, .imagem-beneficios {
+
+	.imagens {
+
+		position: relative;
 		width: 100%;
+		float: left;
 	}
+.produtos-imagens {
+	
+	width: 100%;*/
+	
 }
 
 /*Front-end Style Guide

@@ -3,9 +3,9 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width">
 	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 	<title>Frontend Mentor | Product preview card component</title>
@@ -13,10 +13,14 @@
 <body>
 	<div class="caixa">
 		<div class="imagens"> 
-			<div class="produtos-imagens"> 
+			<picture class="produtos-imagens"> 
+				<picture>
 				<img class="perfume-desktop" src="images/image-product-desktop.jpg">
+				<source media="(max-widht:375px)" srcset="image-product-mobile">
+				<source media="(max-widht:1040px)" srcset="image-product-mobile">
 				<!--img class="perfume-mobile" src="images/image-product-mobile.jpg"-->
-			</div>
+			</picture>
+			
 	</div>
 		<div class="produto-descricao">
 		<p class="produto-tipo"> Perfum </p>
